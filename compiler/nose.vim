@@ -21,4 +21,4 @@ if exists(":CompilerSet") != 2 " older Vim always used :setlocal
 endif
 
 CompilerSet efm=%f:%l:\ fail:\ %m,%f:%l:\ error:\ %m
-CompilerSet makeprg=nosetests\ -q\ --with-machineout\ --with-doc
+CompilerSet makeprg=echo\ $*\ >/dev/null;\ nosetests\ %\ -q --with-doctest\ --with-machineout
