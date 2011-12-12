@@ -9,7 +9,7 @@
 " Last Change: 2004 Mar 27
 "
 " Modified by lambdalisue
-" Last Change: 2011 Nov 12
+" Last Change: 2011 Dec 12
 
 if exists("current_compiler")
   finish
@@ -21,4 +21,4 @@ if exists(":CompilerSet") != 2 " older Vim always used :setlocal
 endif
 
 CompilerSet efm=%f:%l:\ fail:\ %m,%f:%l:\ error:\ %m
-CompilerSet makeprg=echo\ $*\ >/dev/null;\ nosetests\ %\ -q --with-doctest\ --with-machineout
+CompilerSet makeprg=echo\ $*\ >/dev/null;\ nosetests\ %\ -q\ --with-doctest\ --with-machineout

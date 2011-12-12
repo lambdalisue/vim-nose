@@ -1,6 +1,7 @@
 ****************
  nose.vim
 ****************
+:VERSION: 0.1rc2
 
 A simple compiler for executing nosetests on VIM. Originally written by Olivier Le Thanh Duong at and modified by lambdalisue. Useful to use with vim-makegreen_
 
