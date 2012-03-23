@@ -27,7 +27,7 @@ use vundle_ or pathogen_ is recommended or simply extract to your vim directory
 
 and write the following code to your ``ftplugin/python.vim``::
 
-    set compiler=nose
+    compiler nose
 
 
 
