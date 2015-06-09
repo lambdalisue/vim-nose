@@ -9,12 +9,12 @@ See http://blog.staz.be/?post/2010/09/04/Python-unit-test-and-vim for find how t
 
 nose-machineout
 ==============================
-modified version use nose-machineout_ for convinience so you have to install it as well as nose_::
+modified version use nose-machineout2_ for convinience so you have to install it as well as nose_::
 
     sudo pip install nose
-    sudo pip install git+git://github.com/nvie/nose-machineout.git#egg=nose_machineout
+    sudo pip install nose_machineout2
 
-.. _nose-machineout: https://github.com/nvie/nose-machineout
+.. _nose-machineout2: https://github.com/lambdalisue/nose-machineout2
 .. _nose: http://readthedocs.org/docs/nose/en/latest/
 .. _vim-makegreen: https://github.com/reinh/vim-makegreen
 
